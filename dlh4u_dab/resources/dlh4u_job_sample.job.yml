@@ -1,0 +1,10 @@
+resources:
+  jobs:
+    dlh4u_job_sample:
+      name: dlh4u_job_sample
+      queue:
+        enabled: true
+      tasks:
+        - notebook_task:
+            notebook_path: /Workspace/dev/dlh4u_nt
+          task_key: task1
