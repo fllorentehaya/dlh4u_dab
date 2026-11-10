@@ -7,4 +7,4 @@ resources:
       tasks:
         - notebook_task:
             notebook_path: /Workspace/dev/dlh4u_nt
-          task_key: task1
+          task_key: task1_1
